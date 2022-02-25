@@ -1,26 +1,26 @@
-package mod3wk3hw1;
+package Mod3homework;
 
 public class House {
-	int miles;
-	String make;
-	Sting model;
-	public int getMiles() {
-		return miles;
+	int yearBuilt;
+	String type;
+	int bedroom;
+	
+	public int getYearBuilt() {
+		return yearBuilt;
 	}
-	public void setMiles(int miles) {
-		this.miles = miles;
+	public void setYearBuilt(int yearBuilt) {
+		this.yearBuilt = yearBuilt;
 	}
-	public String getMake() {
-		return make;
+	public String getType() {
+		return type;
 	}
-	public void setMake(String make) {
-		this.make = make;
+	public void setType(String type) {
+		this.type = type;
 	}
-	public Sting getModel() {
-		return model;
+	public int getBedroom() {
+		return bedroom;
 	}
-	public void setModel(Sting model) {
-		this.model = model;
+	public void setBedroom(int bedroom) {
+		this.bedroom = bedroom;
 	}
-
 }

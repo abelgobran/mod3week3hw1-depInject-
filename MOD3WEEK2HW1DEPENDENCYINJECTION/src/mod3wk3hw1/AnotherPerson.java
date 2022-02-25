@@ -1,10 +1,19 @@
-package mod3wk3hw1;
+package Mod3homework;
 
 public class AnotherPerson {
 	String name;
 	int age;
-	int city;
+	String address;
 	
+	
+	//House house = new House();
+	
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
 	public String getName() {
 		return name;
 	}
@@ -17,14 +26,20 @@ public class AnotherPerson {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	public int getCity() {
-		return city;
-	}
-	public void setCity(int city) {
-		this.city = city;
-	}
+//	public House getHouse() {
+//		return house;
+//	}
+//	public void setHouse(House house) {
+//		this.house = house;
+//	}
 	
-	
+	public void display() {
+		System.out.println("");
+	}
+	@Override
+	public String toString() {
+		return "AnotherPerson [name=" + name + ", age=" + age + ", address=" + address + "]";
+	}
 	
 
 }
